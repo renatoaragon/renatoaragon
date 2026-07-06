@@ -102,10 +102,5 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=renatoaragon&show_icons=true&theme=tokyonight&hide_border=true&bg_color=07080c&title_color=6ea8fe&icon_color=a78bfa" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=renatoaragon&layout=compact&theme=tokyonight&hide_border=true&bg_color=07080c&title_color=6ea8fe" alt="Top languages">
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=renatoaragon&theme=tokyonight&hide_border=true&background=07080c&ring=6ea8fe&fire=a78bfa&currStreakLabel=6ea8fe" alt="GitHub streak">
 </p>
