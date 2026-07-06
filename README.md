@@ -29,6 +29,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
@@ -44,6 +45,8 @@
 ![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-0B7285?style=flat-square)
 ![Data Warehousing](https://img.shields.io/badge/Data_Warehousing-0B7285?style=flat-square)
 ![ETL / ELT](https://img.shields.io/badge/ETL_%2F_ELT-0B7285?style=flat-square)
+![Streaming](https://img.shields.io/badge/Streaming-0B7285?style=flat-square)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-0B7285?style=flat-square)
 ![Data Quality](https://img.shields.io/badge/Data_Quality-0B7285?style=flat-square)
 ![IaC](https://img.shields.io/badge/Infrastructure_as_Code-0B7285?style=flat-square)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-0B7285?style=flat-square)
