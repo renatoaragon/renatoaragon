@@ -16,7 +16,7 @@
 ### 🚀 About me
 
 - 🛠️ **Senior Data Engineer** building large-scale data pipelines and platforms on **AWS**.
-- 🧱 **Founder & engineer at Aragón Tecnologia**, where I take products from idea to production. architecture, development, deployment and operations.
+- 🧱 **Founder & engineer at Aragón Tecnologia**, where I take products from idea to production: architecture, development, deployment and operations.
 - 🤖 I integrate **AI** where it genuinely improves a product, not as a gimmick.
 - 🌍 Based in **Porto, Portugal**. Working in international, English-speaking teams.
 - 💬 Ask me about **data engineering, AWS, PySpark, infrastructure as code, and building SaaS solo.**
