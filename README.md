@@ -91,6 +91,5 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 | 🧠 **[PsycoHub](https://psycohub.com.br)** | Clinical management + AI for psychologists |
 | 🥗 **[NutriPro](https://nutripro.digital)** | AI-assisted platform for nutritionists |
 | 💅 **[Sola Beauty](https://sola.beauty)** | Management platform for beauty studios |
-| 🏅 **[Sportia](https://www.aragontecnologia.com/sportia)** | SaaS for the sports sector |
 
 > Full portfolio → **[aragontecnologia.com](https://www.aragontecnologia.com)**
