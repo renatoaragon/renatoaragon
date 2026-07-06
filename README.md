@@ -44,9 +44,6 @@
 ![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-0B7285?style=flat-square)
 ![Data Warehousing](https://img.shields.io/badge/Data_Warehousing-0B7285?style=flat-square)
 ![ETL / ELT](https://img.shields.io/badge/ETL_%2F_ELT-0B7285?style=flat-square)
-![CDC](https://img.shields.io/badge/Change_Data_Capture-0B7285?style=flat-square)
-![Streaming](https://img.shields.io/badge/Streaming-0B7285?style=flat-square)
-![Event-Driven](https://img.shields.io/badge/Event--Driven-0B7285?style=flat-square)
 ![Data Quality](https://img.shields.io/badge/Data_Quality-0B7285?style=flat-square)
 ![IaC](https://img.shields.io/badge/Infrastructure_as_Code-0B7285?style=flat-square)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-0B7285?style=flat-square)
@@ -97,11 +94,3 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 | 🏅 **[Sportia](https://www.aragontecnologia.com/sportia)** | SaaS for the sports sector |
 
 > Full portfolio → **[aragontecnologia.com](https://www.aragontecnologia.com)**
-
----
-
-### 📊 GitHub stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=renatoaragon&theme=tokyonight&hide_border=true&background=07080c&ring=6ea8fe&fire=a78bfa&currStreakLabel=6ea8fe" alt="GitHub streak">
-</p>
