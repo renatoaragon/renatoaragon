@@ -83,6 +83,7 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 | **[terraform-aws-datalake](https://github.com/renatoaragon/terraform-aws-datalake)** | Reusable Terraform module for an AWS data lake (S3 + Glue + Athena), secure by default | ![CI](https://github.com/renatoaragon/terraform-aws-datalake/actions/workflows/ci.yml/badge.svg) |
 | **[dbt-duckdb-analytics](https://github.com/renatoaragon/dbt-duckdb-analytics)** | Analytics engineering with dbt + DuckDB — layered staging/marts models and data tests | ![CI](https://github.com/renatoaragon/dbt-duckdb-analytics/actions/workflows/ci.yml/badge.svg) |
 | **[nl-to-sql](https://github.com/renatoaragon/nl-to-sql)** | Natural-language-to-SQL with Claude, with a deterministic read-only safety guard | ![CI](https://github.com/renatoaragon/nl-to-sql/actions/workflows/ci.yml/badge.svg) |
+| **[data-mapping-framework](https://github.com/renatoaragon/data-mapping-framework)** | Map multiple platforms/formats (CSV, JSON, SQL, Parquet) onto one canonical model, with business rules | ![CI](https://github.com/renatoaragon/data-mapping-framework/actions/workflows/ci.yml/badge.svg) |
 
 ---
 
