@@ -37,6 +37,21 @@
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
+**Architecture &amp; Patterns**
+
+![Data Lakehouse](https://img.shields.io/badge/Data_Lakehouse-0B7285?style=flat-square)
+![Medallion Architecture](https://img.shields.io/badge/Medallion_Architecture-0B7285?style=flat-square)
+![Dimensional Modeling](https://img.shields.io/badge/Dimensional_Modeling-0B7285?style=flat-square)
+![Data Warehousing](https://img.shields.io/badge/Data_Warehousing-0B7285?style=flat-square)
+![ETL / ELT](https://img.shields.io/badge/ETL_%2F_ELT-0B7285?style=flat-square)
+![CDC](https://img.shields.io/badge/Change_Data_Capture-0B7285?style=flat-square)
+![Streaming](https://img.shields.io/badge/Streaming-0B7285?style=flat-square)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-0B7285?style=flat-square)
+![Data Quality](https://img.shields.io/badge/Data_Quality-0B7285?style=flat-square)
+![IaC](https://img.shields.io/badge/Infrastructure_as_Code-0B7285?style=flat-square)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-0B7285?style=flat-square)
+![Blue-Green Deploys](https://img.shields.io/badge/Blue--Green_Deploys-0B7285?style=flat-square)
+
 **AWS &amp; Cloud**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
