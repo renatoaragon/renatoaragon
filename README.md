@@ -75,13 +75,13 @@
 
 ### 🧪 Open-source projects
 
-Small, focused data-engineering projects — each runs with synthetic data and is verified in CI.
+Small, focused data-engineering projects. Each one runs with synthetic data and is verified in CI.
 
 | Project | What it demonstrates | CI |
 |---|---|---|
 | **[spark-retail-etl](https://github.com/renatoaragon/spark-retail-etl)** | PySpark batch ETL (raw → clean → curated) with data quality gates and a pytest suite | ![CI](https://github.com/renatoaragon/spark-retail-etl/actions/workflows/ci.yml/badge.svg) |
 | **[terraform-aws-datalake](https://github.com/renatoaragon/terraform-aws-datalake)** | Reusable Terraform module for an AWS data lake (S3 + Glue + Athena), secure by default | ![CI](https://github.com/renatoaragon/terraform-aws-datalake/actions/workflows/ci.yml/badge.svg) |
-| **[dbt-duckdb-analytics](https://github.com/renatoaragon/dbt-duckdb-analytics)** | Analytics engineering with dbt + DuckDB — layered staging/marts models and data tests | ![CI](https://github.com/renatoaragon/dbt-duckdb-analytics/actions/workflows/ci.yml/badge.svg) |
+| **[dbt-duckdb-analytics](https://github.com/renatoaragon/dbt-duckdb-analytics)** | Analytics engineering with dbt + DuckDB, with layered staging/marts models and data tests | ![CI](https://github.com/renatoaragon/dbt-duckdb-analytics/actions/workflows/ci.yml/badge.svg) |
 | **[nl-to-sql](https://github.com/renatoaragon/nl-to-sql)** | Natural-language-to-SQL with Claude, with a deterministic read-only safety guard | ![CI](https://github.com/renatoaragon/nl-to-sql/actions/workflows/ci.yml/badge.svg) |
 | **[data-mapping-framework](https://github.com/renatoaragon/data-mapping-framework)** | Map multiple platforms/formats (CSV, JSON, SQL, Parquet) onto one canonical model, with business rules | ![CI](https://github.com/renatoaragon/data-mapping-framework/actions/workflows/ci.yml/badge.svg) |
 
@@ -89,21 +89,23 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 
 ### 🏗️ What I build & operate
 
-Beyond the open-source projects above, I design, ship **and run** a portfolio of
-production SaaS products at Aragón Tecnologia — solo, end to end:
+Beyond the open-source projects above, I build and run a small fleet of production
+SaaS products at Aragón Tecnologia, mostly on my own, from the first commit to the
+3am alert when something breaks.
 
-- **Multi-tenant SaaS on AWS**, each released with **zero-downtime blue-green**
-  deploys (a Node deploy agent + nginx switching, gated on health checks).
-- **Operated, not just shipped** — self-hosted **uptime monitoring**, error tracking
-  (**Sentry**), structured logging, scheduled jobs and LGPD data-retention automation.
-- **Realtime features** — **Server-Sent Events** for live dashboards and **WebRTC**
-  video calls (TURN/STUN).
-- **Cross-product analytics** — a **medallion lakehouse** (bronze/silver/gold) on
-  **Databricks** with an **MLflow** model, fed by anonymized exports.
-- **Applied AI** — LLM features integrated where they genuinely help a product.
+- Each one is multi-tenant SaaS on AWS, released with **zero-downtime blue-green**
+  deploys: a small Node agent flips nginx over once the health checks pass.
+- I operate them, not just ship them. That means self-hosted uptime monitoring,
+  error tracking with **Sentry**, structured logging, scheduled jobs, and automated
+  LGPD data retention.
+- Some of them are realtime, using **Server-Sent Events** for live dashboards and
+  **WebRTC** for video calls.
+- I pull data across products into a **medallion lakehouse** (bronze, silver, gold)
+  on **Databricks**, with an **MLflow** model on top, fed by anonymized exports.
+- And I add AI where it genuinely helps the person using the product, never for show.
 
-The products and their source are private; the reusable engineering patterns behind
-them are what I rebuild — anonymized and with synthetic data — in the projects above.
+The products and their source stay private. What you see here are the same
+engineering patterns, rebuilt from scratch with synthetic data.
 
 ---
 
