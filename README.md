@@ -87,6 +87,26 @@ Small, focused data-engineering projects — each runs with synthetic data and i
 
 ---
 
+### 🏗️ What I build & operate
+
+Beyond the open-source projects above, I design, ship **and run** a portfolio of
+production SaaS products at Aragón Tecnologia — solo, end to end:
+
+- **Multi-tenant SaaS on AWS**, each released with **zero-downtime blue-green**
+  deploys (a Node deploy agent + nginx switching, gated on health checks).
+- **Operated, not just shipped** — self-hosted **uptime monitoring**, error tracking
+  (**Sentry**), structured logging, scheduled jobs and LGPD data-retention automation.
+- **Realtime features** — **Server-Sent Events** for live dashboards and **WebRTC**
+  video calls (TURN/STUN).
+- **Cross-product analytics** — a **medallion lakehouse** (bronze/silver/gold) on
+  **Databricks** with an **MLflow** model, fed by anonymized exports.
+- **Applied AI** — LLM features integrated where they genuinely help a product.
+
+The products and their source are private; the reusable engineering patterns behind
+them are what I rebuild — anonymized and with synthetic data — in the projects above.
+
+---
+
 ### 🛰️ Products I've built & operate
 
 | Product | What it is |
