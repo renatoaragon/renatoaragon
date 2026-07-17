@@ -89,6 +89,13 @@ Small, focused data-engineering projects. Each one runs with synthetic data and 
 | **[data-mapping-framework](https://github.com/renatoaragon/data-mapping-framework)** | Map multiple platforms/formats (CSV, JSON, SQL, Parquet) onto one canonical model, with business rules and full violation reporting per rejected row | ![CI](https://github.com/renatoaragon/data-mapping-framework/actions/workflows/ci.yml/badge.svg) |
 | **[nl-to-sql](https://github.com/renatoaragon/nl-to-sql)** | Natural-language-to-SQL with Claude: a deterministic read-only guard with lexer-based query normalization | ![CI](https://github.com/renatoaragon/nl-to-sql/actions/workflows/ci.yml/badge.svg) |
 
+**Real products, code in the open** — not demos: these run in production with real users.
+
+| Product | What it is |
+|---|---|
+| **[meucomboio-pt](https://github.com/renatoaragon/meucomboio-pt)** | "Which train can I still catch?" — next departures and trip planning for Portugal on CP's open GTFS data: daily sync pipeline with a quality gate, service-calendar-aware planning, live pricing, and a dbt analytics layer |
+| **[inventario-familiar](https://github.com/renatoaragon/inventario-familiar)** | Self-hosted portal for families in an estate process: shared documents, automatic income splitting (immutable share history), individual statements, full audit log. Synthetic data only |
+
 ---
 
 ### 🏗️ What I build & operate
