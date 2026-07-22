@@ -94,7 +94,7 @@ Small, focused data-engineering projects. Each one runs with synthetic data and 
 | Product | What it is |
 |---|---|
 | **[meucomboio-pt](https://github.com/renatoaragon/meucomboio-pt)** | "Which train can I still catch?" — next departures and trip planning for Portugal on CP's open GTFS data: daily sync pipeline with a quality gate, service-calendar-aware planning, live pricing, and a dbt analytics layer |
-| **[inventario-familiar](https://github.com/renatoaragon/inventario-familiar)** | Self-hosted portal for families in an estate process: shared documents, automatic income splitting (immutable share history), individual statements, full audit log. Synthetic data only |
+| **[inventario-familiar](https://github.com/renatoaragon/inventario-familiar)** | Self-hosted estate portal with a dbt + DuckDB analytics layer: financial marts and a reconciliation gate that fails CI if a single cent goes unaccounted for. Synthetic data only |
 
 ---
 
