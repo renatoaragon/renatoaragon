@@ -126,29 +126,11 @@ Small, focused data-engineering projects. Each one runs with synthetic data and 
 
 ---
 
-### 🏗️ What I build & operate
+### 🏗️ Products I build and operate
 
 Beyond the open-source projects above, I build and run a small fleet of production
 SaaS products at Aragón Tecnologia, mostly on my own, from the first commit to the
 3am alert when something breaks.
-
-- Each one is multi-tenant SaaS on AWS, released with **zero-downtime blue-green**
-  deploys: a small Node agent flips nginx over once the health checks pass.
-- I operate them, not just ship them. That means self-hosted uptime monitoring,
-  error tracking with **Sentry**, structured logging, scheduled jobs, and automated
-  LGPD data retention.
-- Some of them are realtime, using **Server-Sent Events** for live dashboards and
-  **WebRTC** for video calls.
-- I pull data across products into a **medallion lakehouse** (bronze, silver, gold)
-  on **Databricks**, with an **MLflow** model on top, fed by anonymized exports.
-- And I add AI where it genuinely helps the person using the product, never for show.
-
-The products and their source stay private. What you see here are the same
-engineering patterns, rebuilt from scratch with synthetic data.
-
----
-
-### 🛰️ Products I've built & operate
 
 | Product | What it is |
 |---|---|
@@ -156,4 +138,21 @@ engineering patterns, rebuilt from scratch with synthetic data.
 | 🥗 **[NutriPro](https://nutripro.digital)** | AI-assisted platform for nutritionists |
 | 💅 **[Sola Beauty](https://sola.beauty)** | Management platform for beauty studios |
 
-> Full portfolio → **[aragontecnologia.com](https://www.aragontecnologia.com)**
+How I run them:
+
+- Each one is multi-tenant SaaS on AWS, released with **zero-downtime blue-green**
+  deploys: a small Node agent flips nginx over once the health checks pass.
+- I operate them, not just ship them: self-hosted uptime monitoring, error tracking
+  with **Sentry**, structured logging, scheduled jobs, and automated LGPD retention.
+- Some are realtime, using **Server-Sent Events** for live dashboards and **WebRTC**
+  for video calls.
+- I pull data across products into a **medallion lakehouse** (bronze, silver, gold)
+  on **Databricks** with an **MLflow** model on top, fed by anonymized exports.
+- And I add AI where it genuinely helps the person using the product, never for show.
+
+The products and their source stay private. What you see in this profile are the
+same engineering patterns, rebuilt from scratch with synthetic data.
+
+> Open to business partnerships and collaboration on data platforms and products.
+> Reach me at **[aragontecnologia.com](https://www.aragontecnologia.com)** or on
+> **[LinkedIn](https://www.linkedin.com/in/aragonrenato/)**.
