@@ -75,6 +75,32 @@
 
 ---
 
+### 🗺️ How I think about data engineering
+
+Tools are the disposable part. The framework I reach for today will be replaced
+sooner than I would like, and that is fine. What lasts is the architecture: a
+design that is sustainable, scalable and durable rarely has to change, whatever
+tool implements it underneath. So I optimize for the shape, not the stack.
+
+The projects below are laid out along the path data takes through a platform. Each
+is a decision rather than a demo, runs on synthetic data, is verified in CI, and
+carries a short **Design principles** note that explains the why. Read together,
+they are one opinion about how a data platform should be built.
+
+```
+      INGEST              PROCESS            ORCHESTRATE          STORE + MODEL           CONSUME
+ ┌────────────────┐ ┌────────────────┐ ┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
+ │ kafka-retail-  │ │ spark-retail-  │ │ airflow-retail-  │ │ delta-lakehouse- │ │ dbt-duckdb-      │
+ │ streaming      │ │ etl            │ │ orchestration    │ │ mlflow           │ │ analytics        │
+ │ stream + CDC   │ │ batch ETL      │ │ medallion DAG    │ │ Delta + MLflow   │ │ nl-to-sql        │
+ └────────────────┘ └────────────────┘ └──────────────────┘ └──────────────────┘ └──────────────────┘
+
+ foundations    terraform-aws-datalake (IaC)  ·  data-mapping-framework (canonical model)  ·  kanban-streaming-metrics (flow metrics)
+ in every repo  explicit schemas  ·  data-quality gates  ·  idempotent, replayable design  ·  tests + CI
+```
+
+---
+
 ### 🧪 Open-source projects
 
 Small, focused data-engineering projects. Each one runs with synthetic data and is verified in CI.
@@ -83,6 +109,8 @@ Small, focused data-engineering projects. Each one runs with synthetic data and 
 |---|---|---|
 | **[kafka-retail-streaming](https://github.com/renatoaragon/kafka-retail-streaming)** | Kafka (KRaft) + Spark Structured Streaming: event-time windows with watermarks, dead-letter queue, Iceberg sink with exactly-once semantics (ADR), CDC with Postgres + Debezium merged via `foreachBatch` | ![CI](https://github.com/renatoaragon/kafka-retail-streaming/actions/workflows/ci.yml/badge.svg) |
 | **[spark-retail-etl](https://github.com/renatoaragon/spark-retail-etl)** | PySpark batch ETL (raw → clean → curated): incremental loads over a high-watermark, partitioned outputs, quality gates with volume anomaly detection, run summaries, ADRs | ![CI](https://github.com/renatoaragon/spark-retail-etl/actions/workflows/ci.yml/badge.svg) |
+| **[airflow-retail-orchestration](https://github.com/renatoaragon/airflow-retail-orchestration)** | Airflow TaskFlow DAG orchestrating a medallion pipeline: quality-gate branching, dynamic task mapping, idempotent partitioned writes, DAG-integrity and end-to-end tests | ![CI](https://github.com/renatoaragon/airflow-retail-orchestration/actions/workflows/ci.yml/badge.svg) |
+| **[delta-lakehouse-mlflow](https://github.com/renatoaragon/delta-lakehouse-mlflow)** | Medallion lakehouse on Delta Lake with an MLflow-tracked churn model: idempotent silver via `MERGE`, full-recompute gold, tracked and registerable modelling | ![CI](https://github.com/renatoaragon/delta-lakehouse-mlflow/actions/workflows/ci.yml/badge.svg) |
 | **[kanban-streaming-metrics](https://github.com/renatoaragon/kanban-streaming-metrics)** | Streaming flow metrics with Redpanda + PySpark: throughput, cycle time, WIP, and percentile-based forecasting (p85/p95, SLA attainment) | ![CI](https://github.com/renatoaragon/kanban-streaming-metrics/actions/workflows/ci.yml/badge.svg) |
 | **[dbt-duckdb-analytics](https://github.com/renatoaragon/dbt-duckdb-analytics)** | Analytics engineering with dbt + DuckDB: layered staging/marts and four layers of data tests, up to cross-layer revenue reconciliation | ![CI](https://github.com/renatoaragon/dbt-duckdb-analytics/actions/workflows/ci.yml/badge.svg) |
 | **[terraform-aws-datalake](https://github.com/renatoaragon/terraform-aws-datalake)** | Reusable Terraform module for an AWS data lake (S3 + Glue + Athena): secure by default, plan-time input validation, tflint gate | ![CI](https://github.com/renatoaragon/terraform-aws-datalake/actions/workflows/ci.yml/badge.svg) |
