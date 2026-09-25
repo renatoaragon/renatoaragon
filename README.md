@@ -15,7 +15,7 @@
 
 ### 🚀 About me
 
-- 🛠️ **Senior Data Engineer working with Hiscox**, contributing to enterprise data platforms in an international environment.
+- 🛠️ **Senior Data Engineer working with Hiscox**, contributing to enterprise data platforms with **Azure Databricks, Azure Data Factory, PySpark, Python, SQL, and Azure DevOps** in an international environment.
 - 🧭 I turn complex integration and migration problems into **reusable patterns, clear operating practices, and maintainable systems**.
 - ✅ I care about the full delivery path: architecture, implementation, data quality, CI/CD, observability, safe releases, and evidence-based validation.
 - 🧱 **Founder & engineer at Aragón Tecnologia**, where I take products from idea to production: architecture, development, deployment and operations.
