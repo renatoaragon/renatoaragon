@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Renato Aragón 👋</h1>
 
 <p align="center">
-  <b>Senior Data Engineer · Software Builder · Founder @ Aragón Tecnologia</b><br>
-  Cloud data platforms on AWS by day. Shipping AI-driven SaaS products on the side.
+  <b>Senior Data Engineer · Data Platform Builder · Founder @ Aragón Tecnologia</b><br>
+  Building reliable data systems, improving engineering standards, and turning ambiguity into durable platforms.
 </p>
 
 <p align="center">
@@ -15,11 +15,13 @@
 
 ### 🚀 About me
 
-- 🛠️ **Senior Data Engineer** building large-scale data pipelines and platforms on **AWS**.
+- 🛠️ **Senior Data Engineer working with Hiscox**, contributing to enterprise data platforms in an international environment.
+- 🧭 I turn complex integration and migration problems into **reusable patterns, clear operating practices, and maintainable systems**.
+- ✅ I care about the full delivery path: architecture, implementation, data quality, CI/CD, observability, safe releases, and evidence-based validation.
 - 🧱 **Founder & engineer at Aragón Tecnologia**, where I take products from idea to production: architecture, development, deployment and operations.
 - 🤖 I integrate **AI** where it genuinely improves a product, not as a gimmick.
 - 🌍 Based in **Porto, Portugal**. Working in international, English-speaking teams.
-- 💬 Ask me about **data engineering, AWS, PySpark, infrastructure as code, and building SaaS solo.**
+- 💬 Ask me about **data platforms, Databricks, PySpark, Azure and AWS, engineering quality, and building SaaS end to end.**
 
 ---
 
@@ -57,9 +59,12 @@
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-0B7285?style=flat-square)
 ![Blue-Green Deploys](https://img.shields.io/badge/Blue--Green_Deploys-0B7285?style=flat-square)
 
-**AWS &amp; Cloud**
+**Cloud &amp; Platform Engineering**
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=flat-square&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white)
 ![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
 ![AWS Glue](https://img.shields.io/badge/AWS_Glue-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Amazon Athena](https://img.shields.io/badge/Amazon_Athena-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
@@ -89,6 +94,11 @@ The projects below are laid out along the path data takes through a platform. Ea
 is a decision rather than a demo, runs on synthetic data, is verified in CI, and
 carries a short **Design principles** note that explains the why. Read together,
 they are one opinion about how a data platform should be built.
+
+My standard is not a green pipeline alone. A trustworthy delivery has traceable
+requirements, explicit contracts, representative tests, reconciled outputs, a safe
+release path, and documentation that helps the next engineer move faster. Leadership,
+to me, means making that standard easier for the whole team to apply.
 
 ```
       INGEST              PROCESS            ORCHESTRATE          STORE + MODEL           CONSUME
