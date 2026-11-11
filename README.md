@@ -149,7 +149,8 @@ SaaS products at Aragón Tecnologia, mostly on my own, from the first commit to 
 |---|---|
 | 🧠 **[PsycoHub](https://psycohub.com.br)** | Clinical management + AI for psychologists |
 | 🥗 **[NutriPro](https://nutripro.digital)** | AI-assisted platform for nutritionists |
-| 💅 **[Sola Beauty](https://sola.beauty)** | Management platform for beauty studios |
+| 📁 **[Dockly](https://dockly.digital)** | Client onboarding for agencies and freelancers |
+| 💼 **[LaboraHub](https://laborahub.work)** | Talent marketplace for Portugal and Spain |
 
 How I run them:
 
